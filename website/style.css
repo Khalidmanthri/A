@@ -1,0 +1,95 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+</style>
+
+  *{
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 4px;
+  background-color: #25252A;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+
+
+.btn-1 {
+  width: 300px;
+  height: 100px;
+  border: none;
+  color: #blue;
+  background color: #red;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 0 #404040;
+  transition: ease-out 0.2s;
+  font-size: 2rem;
+  outline: none;
+}
+
+.btn-1:hover {
+  box-shadow: inset 300px 0 0 0 #333333;
+}
+
+
+body {
+  background-image: url('w3css.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.btn-2 {
+  width: 500px;
+  height: 100px;
+  border: none;
+  color: #blue;
+  background color: #red;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 0 #404040;
+  transition: ease-out 0.2s;
+  font-size: 2rem;
+  outline: none;
+}
+
+.btn-2:hover {
+  box-shadow: inset 500px 0 0 0 #333333;
+}
+
+
+body {
+  background-image: url('w3css.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+body {
+  background-color: #002a3f;
+  padding: 0;
+  margin: 0;
+}
+input[type="file"]{
+  display: none;
+}
+/*import*/
+label{
+  color: white;
+  height: 60px;
+  width: 250px;
+  background-color: #f5af09
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Monsterrat",sans-serif;
+}
